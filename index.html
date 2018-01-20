@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-themei.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/tooltip.css">
+	<script src="jQuery/jqeury.min.js"></script>
+	<script src="jQuery/jqeury.js"></script>
+	<script type="text/javascript" src="JS/tooltip.js"></script>
+	<script type="text/javascript" src="JS/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="JS/tabs.js"></script>
+	<script type="text/javascript" src="JS/overlay.js"></script>
+	<script type="text/javascript" src="JS/overlay.apple.js"></script>
+	<!--<script type="text/javascript" src="JS/overlay.js"></script>-->
+		<script>
+			$(document).ready(function(){
+    			$("#hide").click(function(){
+        			$("h5").hide(3000);
+    			});
+    			$("#show").click(function(){
+        			$("h5").show(3000);
+    			});
+    			$(".flip").click(function(){
+					$(".pesan").slideToggle("slow");
+				});
+				$("#demo img[title]").tooltip({effect: 'slide'});
+				});
+				 $(function(){
+        		$(".tabs").tabs(".pane", {effect: 'fade'});
+        		$("a[rel]").overlay({
+    				closeOnClick: false,
+
+    				mask: { 
+    				color: '#ccc',
+    				closeSpeed: 200
+    				},
+    	
+    				effect: 'apple'
+    			});
+      		});
+		</script>
+</head>
+<body>
+	<nav  class="navbar navbar-inverse navbar-fixed-top">
+  	<div class="container-fluid">
+    	<ul class="nav navbar-nav">
+      		<li class="active"><a href="#">Home</a></li>
+      		<li><a href="#aside">Sistem</a></li>
+      		<li><a href="#content">Content</a></li>
+      		<li><a href="#footer">Other</a></li>
+      		<li><a href="admin/index.php">Login Admin</a></li>
+    	</ul> 
+	</div>
+	</nav>
+	<div class="container-fluid">
+		<div id="section">
+			<section>
+				<center>
+					<h2>RPL<br>Rekayasa Perangkat Lunak</h2>
+				</center>
+			</section>
+		</div>
+	<div class="container-fluid">
+		<div id="aside">
+		<hr>
+		<center><h1 style="color: red">This is System</h1><br /><h4>of Staff, Production, Inventory, and Financial from This Company</h4></center>
+		<br />
+		<hr>
+			<aside style="margin-left: 5%">
+  					<div class="col-sm-3">
+  						<div class="img">
+  						<a target="_blank" href="admin/index.php">
+    					<img src="img/pegawai.png" width="300" height="200">
+  						</a>
+  						<hr>
+  						<div class="desc"><a href="admin/index.php">Staff</a></div>
+						</div>
+  					</div>
+  					<div class="col-sm-3">
+  						<div class="img">
+  						<a target="_blank" href="fjords.jpg">
+    					<img src="img/produc.png" width="300" height="200">
+  						</a>
+  						<hr>
+  						<div class="desc"><a href="">Production</a></div>
+						</div>
+  					</div>
+  					<div class="col-sm-3">
+  						<div class="img">
+  						<a target="_blank" href="fjords.jpg">
+    					<img src="img/inven.png" width="300" height="200" border="2px">
+  						</a>
+  						<hr>
+  						<div class="desc"><a href="">Inventory</a></div>
+						</div>
+					</div>
+  					<div class="col-sm-3">
+  						<div class="img">
+  						<a target="_blank" href="fjords.jpg">
+    					<img src="img/finan.png" width="300" height="200">
+  						</a>
+  						<hr>
+  						<div class="desc"><a href="">Financial</a></div>
+					</div>
+			</aside>
+		</div>
+	</div>
+	<br />
+	<div id="content">
+	<hr>
+		<h1 style="text-align: center"><u>Kumpulan Artikel</u></h1>
+	<br />
+	<hr>
+	<br />
+		<center><button id="show" class="btn btn-info">Clik Me to Show</button>
+		<button id="hide" class="btn btn-warning">Click Me to Hide</button></center>
+			<div id="content">
+				<div class="col-sm-6">
+		<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. </h5>
+				</div>
+			</div>
+				<div class="col-sm-6">
+		<h5>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.,Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h5>
+				</div>
+			</div>
+	</div> 
+	<br />
+	<hr>
+	<br />
+	<div class="container-fluid">
+		<ul class="tabs">
+			<li><a href="#1">Berita</a></li>
+			<li><a href="#tabs2">Utama</a></li>
+			<li><a href="#3">Sport</a></li>
+		</ul>
+		<div class="panes">
+
+	<div class="pane">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra, leo sit amet auctor fermentum, risus lorem posuere tortor, in accumsan purus magna imperdiet sem.
+		</p>
+		
+		<p>
+			Suspendisse enim. Pellentesque facilisis aliquam enim. Maecenas facilisis molestie lectus. Sed ornare ultricies tortor. Vivamus nibh metus, faucibus quis, semper ut, dignissim id, diam. 
+		</p>			
+	</div>
+	<div class="pane">
+		<p>
+			Mauris ultricies. Nam feugiat egestas nulla. Donec augue dui, molestie sed, tristique sit amet, blandit eu, turpis. Mauris hendrerit, nisi et sodales tempor, orci tellus laoreet elit, sed molestie dui quam vitae dui.
+		</p> 
+		<p>
+			Pellentesque nisl. Ut adipiscing vehicula risus. Nam eget tortor. Maecenas id augue. Vivamus interdum nulla ac dolor. Fusce metus. Suspendisse eu purus. Maecenas quis lacus eget dui volutpat molestie.
+		</p>
+	</div>
+	
+	<div class="pane">
+		<p>
+			Kaecenas at odio. Nunc laoreet lectus vel ante. Nullam imperdiet. Sed justo dolor, mattis eu, euismod sed, tempus a, nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+		</p>
+		
+		<p>
+			In sed dolor. Etiam eget quam ac nibh pharetra adipiscing. Nullam vitae ligula. Sed sit amet leo sit amet arcu mollis ultrices. Vivamus rhoncus sapien nec lorem. In mattis nisi. Vivamus at enim. Integer semper imperdiet massa. Vestibulum nulla massa, pretium quis, porta id, vestibulum vitae, velit.
+		</p>
+	</div>
+</div>
+</div>
+	<div>
+		<h1 style="text-align: center">Photo Collection</h1>
+	</div>
+	<hr>
+	<br />
+		<div class="container-fluid" style="margin-left: 1% !important">
+			<div class="scrollable" style="width:130px">
+			<div id="demo" class="items">
+				<a rel="#overlay2" href="#>
+		 		<img src="img/pegawai.png" class="img-circle" title="Ini Gambar Pegawai" style="width: 235px; height: 235px">
+		 		<img src="img/pegawai.png" class="img-circle" title="Ini Icon Pegawai" style="width: 235px; height: 235px">
+		 		<img src="img/pegawai.png" class="img-circle" title="Ini Icon Baru" style="width: 235px; height: 235px;">
+		 		<img src="img/pegawai.png" class="img-circle" title="Icon ini Icon Pegawai" style="width: 235px; height: 235px">
+		 		<img src="img/pegawai.png" class="img-circle" title="Ini ikon Pegawai" style="width: 235px; height: 235px">
+		 		<img src="img/pegawai.png" class="img-circle" title="Ini ikon Pegawai" style="width: 235px; height: 235px">
+		 		</a>
+				</div>
+			</div>
+		</div>
+
+	<div class="overlay" id="overlay2">
+    	<div style="padding:40px">
+    		asdfasdfsfadasd kasdj fjhasd fljkasd flkjasd flkasdj asdfasdfsfadasd kasdj fjhasd fljkasd flkjasd flkasdj asdfasdfsfadasd kasdj fjhasd fljkasd flkjasd flkasdj asdfasdfsfadasd kasdj fjhasd fljkasd flkjasd flkasdj 
+    	</div>
+    </div>
+
+	<br />
+	<p class="flip">Hide/Show Pesan</p>
+	<div class="pesan">
+		<p><center>Sukses bukanlah kunci bahagia<br /> Kesuksesan adalah kunci kebahagian.<br /> A good application is an application that is'n completed for the coding</center></p>
+	</div>
+	<br />
+	<div id="footer">
+		Copyright &copy Indah Uminaroh
+	</div>
+</body>
+</html>

@@ -1,0 +1,173 @@
+* {
+	margin: 0px !important;
+}
+nav {
+	position: fixed !important;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    float: left;
+}
+p {
+	font-family: Kinnari;
+	text-align: justify;
+	font-size: 20px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: Abyssinica SIL;
+    font-size: 15px;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 7%
+}
+section {
+	background-image: url(../img/2.jpg);
+	color: white;
+	opacity: 0.5;
+	width: 100%;
+	height: 300px;
+	margin-top: 3.8% !important; 
+	margin-bottom: 4.5% !important
+}
+aside {
+	text-align: justify;
+	margin-left: 3.2% !important;
+	margin-right: 10%;
+	margin-bottom: 20px !important;
+	margin-top: 5% !important;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   	width: 100%;
+   	height: 50px;	 	 
+}
+h2 {
+	padding-top: 130px; 
+	font-family: Impact !important;
+}
+h1 {
+	font-family: Century Schoolbook L; 
+	color: red; 
+	margin-top: 4% !important;
+}
+h5 {
+	font-family: FreeSerif !important; 
+	font-size: 20px !important; 
+}
+#bawah{
+	margin-top: 10%;
+}
+div.pesan {
+	height: 120px;
+	display: none;
+}
+div.pesan, p.flip {
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+	background: lightyellow;
+	border: 1px solid black;
+	cursor: pointer;
+}
+h5 {
+	text-align: justify;
+}
+.demotip {
+	background-color: pink;
+}
+.tabs {  
+	margin:0 !important; 
+	padding:0;
+	height:28px;
+	border-bottom:1px solid #666;	 	
+}
+
+/* single tab */
+.tabs li {  
+	float:left;	 
+	padding:0; 
+	margin:0;  
+	list-style-type:none;	
+}
+
+/* link inside the tab. uses a background image */
+.tabs a { 
+	float:left;
+	display:block;
+	padding:5px 30px;	
+	text-decoration:none;
+	border:1px solid #666;	
+	border-bottom:0px;
+	background-color:#efefef;
+	color:#777;
+	margin-right:2px;	
+	position:relative;
+	top:1px;	
+	outline:none;
+	-moz-border-radius:4px 4px 0 0;
+	border-radius:4px 4px 0 0;
+}
+
+.tabs a:hover {
+	background-color:#F7F7F7;
+	color:#333;
+}
+	
+/* selected tab */
+.tabs a.current {
+	background-color:#ddd;
+	border-bottom:2px solid #ddd;	
+	color:#000;	
+	cursor:default;
+}
+/* tab pane */
+.pane {
+	display:none;
+	border:1px solid #666;
+	border-width:0 1px 1px 1px;
+	min-height:150px;
+	padding:15px 20px;
+	background-color:#ddd;	
+}
+.scrollable .items { 	
+	margin-left:10px;
+	position:relative;
+	width:20000em;	
+}
+.scrollable .items div {
+	text-align:center;
+	width:110px;
+	padding:25px 0px;
+	font-size:30px;
+	border:1px outset #ccc;
+	background-color: #efefef;
+	margin-right: 20px;
+	float:left;
+}
+div.overlay {
+	width:400px;
+	display:none;
+	color:#fff;
+	padding:10px;
+}
+div.overlay a.close {
+	background-image:url(../img/close.png);
+	position:absolute;
+	right:5px;
+	top:7px;
+	cursor:pointer;
+	height:27px;
+	width:27px;
+}
+#overlay2 {
+	background-image:url(../img/overlay.png)	
+}

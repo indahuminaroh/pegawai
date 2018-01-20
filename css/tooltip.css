@@ -1,0 +1,40 @@
+
+.tip {
+	background-color: pink;
+	display:none;
+	width:165px;
+	height:63px;
+	position:absolute;
+	padding:20px;
+	color:#fff;		
+}
+
+.tooltip {
+	display:none;
+	width:250px;
+	height:70px;
+	position:absolute;
+	padding:20px;
+	color:#fff;		
+	background-color: orange;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+
+.trigger {
+	border:1px solid #ccc;
+	background-color:#eee;
+	display:block;
+	padding:5px 10px;
+	width:100px;
+	margin:0 20px 10px 0;
+	float:left;
+	text-align:center;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+
+.test {
+	clear:left;		
+	height:90px;
+}
